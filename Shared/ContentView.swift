@@ -16,7 +16,7 @@ struct ContentView: View {
         GeometryReader { _ in
             Color.white
             if show {
-                StoriesView(
+                StoriesWidget(
                     manager: StoriesManager.self,
                     stories: Stories.allCases,
                     leeway: .seconds(1)
