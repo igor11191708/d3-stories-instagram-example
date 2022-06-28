@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B290326E286B09A4007E0B93 /* d3-stories-instagram in Frameworks */ = {isa = PBXBuildFile; productRef = B290326D286B09A4007E0B93 /* d3-stories-instagram */; };
+		B2903270286B09D3007E0B93 /* d3-stories-instagram in Frameworks */ = {isa = PBXBuildFile; productRef = B290326F286B09D3007E0B93 /* d3-stories-instagram */; };
 		B2C8A3C4286446E300097727 /* d3_stories_instagram_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A3B4286446E200097727 /* d3_stories_instagram_exampleApp.swift */; };
 		B2C8A3C5286446E300097727 /* d3_stories_instagram_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A3B4286446E200097727 /* d3_stories_instagram_exampleApp.swift */; };
 		B2C8A3C6286446E300097727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A3B5286446E200097727 /* ContentView.swift */; };
 		B2C8A3C7286446E300097727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A3B5286446E200097727 /* ContentView.swift */; };
 		B2C8A3C8286446E300097727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C8A3B6286446E300097727 /* Assets.xcassets */; };
 		B2C8A3C9286446E300097727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C8A3B6286446E300097727 /* Assets.xcassets */; };
-		B2C8A3D62864473900097727 /* d3-stories-instagram in Frameworks */ = {isa = PBXBuildFile; productRef = B2C8A3D52864473900097727 /* d3-stories-instagram */; };
-		B2C8A3D82864473E00097727 /* d3-stories-instagram in Frameworks */ = {isa = PBXBuildFile; productRef = B2C8A3D72864473E00097727 /* d3-stories-instagram */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,6 @@
 		B2C8A3BB286446E300097727 /* d3-stories-instagram-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "d3-stories-instagram-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C8A3C1286446E300097727 /* d3-stories-instagram-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "d3-stories-instagram-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C8A3C3286446E300097727 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		B2C8A3D32864470F00097727 /* d3-stories-instagram */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "d3-stories-instagram"; path = "../d3-stories-instagram"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C8A3D62864473900097727 /* d3-stories-instagram in Frameworks */,
+				B290326E286B09A4007E0B93 /* d3-stories-instagram in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C8A3D82864473E00097727 /* d3-stories-instagram in Frameworks */,
+				B2903270286B09D3007E0B93 /* d3-stories-instagram in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +87,6 @@
 		B2C8A3D22864470F00097727 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				B2C8A3D32864470F00097727 /* d3-stories-instagram */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -117,7 +115,7 @@
 			);
 			name = "d3-stories-instagram-example (iOS)";
 			packageProductDependencies = (
-				B2C8A3D52864473900097727 /* d3-stories-instagram */,
+				B290326D286B09A4007E0B93 /* d3-stories-instagram */,
 			);
 			productName = "d3-stories-instagram-example (iOS)";
 			productReference = B2C8A3BB286446E300097727 /* d3-stories-instagram-example.app */;
@@ -137,7 +135,7 @@
 			);
 			name = "d3-stories-instagram-example (macOS)";
 			packageProductDependencies = (
-				B2C8A3D72864473E00097727 /* d3-stories-instagram */,
+				B290326F286B09D3007E0B93 /* d3-stories-instagram */,
 			);
 			productName = "d3-stories-instagram-example (macOS)";
 			productReference = B2C8A3C1286446E300097727 /* d3-stories-instagram-example.app */;
@@ -170,6 +168,9 @@
 				Base,
 			);
 			mainGroup = B2C8A3AE286446E100097727;
+			packageReferences = (
+				B290326C286B09A4007E0B93 /* XCRemoteSwiftPackageReference "d3-stories-instagram" */,
+			);
 			productRefGroup = B2C8A3BC286446E300097727 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -479,13 +480,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		B290326C286B09A4007E0B93 /* XCRemoteSwiftPackageReference "d3-stories-instagram" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Igor/d3-stories-instagram.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		B2C8A3D52864473900097727 /* d3-stories-instagram */ = {
+		B290326D286B09A4007E0B93 /* d3-stories-instagram */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = B290326C286B09A4007E0B93 /* XCRemoteSwiftPackageReference "d3-stories-instagram" */;
 			productName = "d3-stories-instagram";
 		};
-		B2C8A3D72864473E00097727 /* d3-stories-instagram */ = {
+		B290326F286B09D3007E0B93 /* d3-stories-instagram */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = B290326C286B09A4007E0B93 /* XCRemoteSwiftPackageReference "d3-stories-instagram" */;
 			productName = "d3-stories-instagram";
 		};
 /* End XCSwiftPackageProductDependency section */
