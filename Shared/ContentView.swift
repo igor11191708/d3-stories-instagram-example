@@ -12,6 +12,8 @@ struct ContentView: View {
 
     @State var show = true
 
+    @State var pause = false
+
     var body: some View {
         GeometryReader { _ in
             Color.white
@@ -19,28 +21,48 @@ struct ContentView: View {
                 StoriesWidget(
                     manager: StoriesManager.self,
                     stories: Stories.allCases,
-                    leeway: .seconds(1)
+                    pause: $pause
                 )
             }
 
         }.overlay(btn, alignment: .bottom)
+            .onChange(of: show){ if $0 == false { pause = false } }
     }
 
     var btn: some View {
         #if os(iOS)
-            Button {
-                show.toggle()
-            } label: {
+            HStack {
+                Button {
+                    show.toggle()
+                } label: {
 
-                Text(show ? "Hide stories" : "Show stories")
-                    .font(.system(size: 17))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 20)
-                    .foregroundColor(.primary)
-                    .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 15))
-                    .padding(.top, 25)
-                    .padding(.horizontal)
-            }.padding(.bottom, 5)
+                    Text(show ? "hide" : "show")
+                        .font(.system(size: 17))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 20)
+                        .foregroundColor(.primary)
+                        .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 15))
+                        .padding(.top, 25)
+                        .padding(.horizontal)
+                }.padding(.bottom, 5)
+
+                if show {
+
+                    Button {
+                        pause.toggle()
+                    } label: {
+
+                        Text(pause ? "resume" : "pause")
+                            .font(.system(size: 17))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 20)
+                            .foregroundColor(.primary)
+                            .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 15))
+                            .padding(.top, 25)
+                            .padding(.horizontal)
+                    }.padding(.bottom, 5)
+                }
+            }
         #else
             EmptyView()
         #endif
