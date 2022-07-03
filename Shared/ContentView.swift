@@ -22,7 +22,9 @@ struct ContentView: View {
                     manager: StoriesManager.self,
                     stories: Stories.allCases,
                     pause: $pause
-                )
+                ){ state in
+                    print("\(state)")
+                }
             }
 
         }.overlay(btn, alignment: .bottom)
