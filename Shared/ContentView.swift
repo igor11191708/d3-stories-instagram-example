@@ -5,11 +5,10 @@
 //  Created by Igor Shelopaev on 28.06.2022.
 //
 
-import SwiftUI
 import d3_stories_instagram
+import SwiftUI
 
 struct ContentView: View {
-
     @State var show = true
 
     @State var pause = false
@@ -22,13 +21,13 @@ struct ContentView: View {
                     manager: StoriesManager.self,
                     stories: Stories.allCases,
                     pause: $pause
-                ){ state in
+                ) { state in
                     print("\(state)")
                 }
             }
 
         }.overlay(btn, alignment: .bottom)
-            .onChange(of: show){ if $0 == false { pause = false } }
+            .onChange(of: show) { if $0 == false { pause = false } }
     }
 
     var btn: some View {
@@ -37,7 +36,6 @@ struct ContentView: View {
                 Button {
                     show.toggle()
                 } label: {
-
                     Text(show ? "hide" : "show")
                         .font(.system(size: 17))
                         .frame(maxWidth: .infinity)
@@ -49,11 +47,9 @@ struct ContentView: View {
                 }.padding(.bottom, 5)
 
                 if show {
-
                     Button {
                         pause.toggle()
                     } label: {
-
                         Text(pause ? "resume" : "pause")
                             .font(.system(size: 17))
                             .frame(maxWidth: .infinity)
@@ -68,9 +64,7 @@ struct ContentView: View {
         #else
             EmptyView()
         #endif
-
     }
-
 }
 
 struct ContentView_Previews: PreviewProvider {
