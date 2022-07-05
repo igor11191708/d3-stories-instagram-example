@@ -20,14 +20,15 @@ struct ContentView: View {
                 StoriesWidget(
                     manager: StoriesManager.self,
                     stories: Stories.allCases,
-                    pause: $pause
+                    pause: $pause,
+                    validator: CustomStoriesValidater.self
                 ) { state in
                     print("\(state)")
                 }
             }
 
         }.overlay(btn, alignment: .bottom)
-            .onChange(of: show) { if $0 == false { pause = false } }
+         .onChange(of: show) { if $0 == false { pause = false } }
     }
 
     var btn: some View {
