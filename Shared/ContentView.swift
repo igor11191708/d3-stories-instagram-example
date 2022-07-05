@@ -29,6 +29,7 @@ struct ContentView: View {
 
         }.overlay(btn, alignment: .bottom)
          .onChange(of: show) { if $0 == false { pause = false } }
+         //.environment(\.locale, .init(identifier: "es"))
     }
 
     var btn: some View {
