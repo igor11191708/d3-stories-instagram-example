@@ -1,7 +1,7 @@
 # SwiftUI and Combine - Stories instagram
  
  ## Example for package  
-[d3-stories-instagram](https://github.com/The-Igor/d3-stories-instagram)
+[swiftui-stories-instagram](https://github.com/The-Igor/swiftui-stories-instagram)
 
  ## Features
 - [x] Long tap - pause stories showcase
