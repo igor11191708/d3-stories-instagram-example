@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B290326E286B09A4007E0B93 /* d3-stories-instagram in Frameworks */ = {isa = PBXBuildFile; productRef = B290326D286B09A4007E0B93 /* d3-stories-instagram */; };
-		B2903270286B09D3007E0B93 /* d3-stories-instagram in Frameworks */ = {isa = PBXBuildFile; productRef = B290326F286B09D3007E0B93 /* d3-stories-instagram */; };
+		786796302CF73C6B00352F7A /* d3-stories-instagram in Frameworks */ = {isa = PBXBuildFile; productRef = 7867962F2CF73C6B00352F7A /* d3-stories-instagram */; };
+		786796322CF73C7600352F7A /* d3-stories-instagram in Frameworks */ = {isa = PBXBuildFile; productRef = 786796312CF73C7600352F7A /* d3-stories-instagram */; };
 		B2903272286B0C88007E0B93 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B2903271286B0C88007E0B93 /* README.md */; };
 		B2C8A3C4286446E300097727 /* d3_stories_instagram_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A3B4286446E200097727 /* d3_stories_instagram_exampleApp.swift */; };
 		B2C8A3C5286446E300097727 /* d3_stories_instagram_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A3B4286446E200097727 /* d3_stories_instagram_exampleApp.swift */; };
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B290326E286B09A4007E0B93 /* d3-stories-instagram in Frameworks */,
+				786796302CF73C6B00352F7A /* d3-stories-instagram in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2903270286B09D3007E0B93 /* d3-stories-instagram in Frameworks */,
+				786796322CF73C7600352F7A /* d3-stories-instagram in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +118,7 @@
 			);
 			name = "d3-stories-instagram-example (iOS)";
 			packageProductDependencies = (
-				B290326D286B09A4007E0B93 /* d3-stories-instagram */,
+				7867962F2CF73C6B00352F7A /* d3-stories-instagram */,
 			);
 			productName = "d3-stories-instagram-example (iOS)";
 			productReference = B2C8A3BB286446E300097727 /* d3-stories-instagram-example.app */;
@@ -138,7 +138,7 @@
 			);
 			name = "d3-stories-instagram-example (macOS)";
 			packageProductDependencies = (
-				B290326F286B09D3007E0B93 /* d3-stories-instagram */,
+				786796312CF73C7600352F7A /* d3-stories-instagram */,
 			);
 			productName = "d3-stories-instagram-example (macOS)";
 			productReference = B2C8A3C1286446E300097727 /* d3-stories-instagram-example.app */;
@@ -173,7 +173,7 @@
 			);
 			mainGroup = B2C8A3AE286446E100097727;
 			packageReferences = (
-				B290326C286B09A4007E0B93 /* XCRemoteSwiftPackageReference "d3-stories-instagram" */,
+				7867962E2CF73C5A00352F7A /* XCRemoteSwiftPackageReference "d3-stories-instagram" */,
 			);
 			productRefGroup = B2C8A3BC286446E300097727 /* Products */;
 			projectDirPath = "";
@@ -488,9 +488,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B290326C286B09A4007E0B93 /* XCRemoteSwiftPackageReference "d3-stories-instagram" */ = {
+		7867962E2CF73C5A00352F7A /* XCRemoteSwiftPackageReference "d3-stories-instagram" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/The-Igor/d3-stories-instagram.git";
+			repositoryURL = "https://github.com/igor11191708/d3-stories-instagram";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -499,14 +499,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B290326D286B09A4007E0B93 /* d3-stories-instagram */ = {
+		7867962F2CF73C6B00352F7A /* d3-stories-instagram */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B290326C286B09A4007E0B93 /* XCRemoteSwiftPackageReference "d3-stories-instagram" */;
+			package = 7867962E2CF73C5A00352F7A /* XCRemoteSwiftPackageReference "d3-stories-instagram" */;
 			productName = "d3-stories-instagram";
 		};
-		B290326F286B09D3007E0B93 /* d3-stories-instagram */ = {
+		786796312CF73C7600352F7A /* d3-stories-instagram */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B290326C286B09A4007E0B93 /* XCRemoteSwiftPackageReference "d3-stories-instagram" */;
+			package = 7867962E2CF73C5A00352F7A /* XCRemoteSwiftPackageReference "d3-stories-instagram" */;
 			productName = "d3-stories-instagram";
 		};
 /* End XCSwiftPackageProductDependency section */
