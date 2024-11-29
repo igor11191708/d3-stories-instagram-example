@@ -1,7 +1,7 @@
 # SwiftUI and Combine - Stories instagram
  
  ## Example for package  
-[stories-instagram](https://github.com/The-Igor/swiftui-stories-instagram)
+[stories-instagram](https://github.com/swiftuiux/swiftui-stories-instagram)
 
  ## Features
 - [x] Long tap - pause stories showcase
@@ -17,8 +17,8 @@
 - [x] Localization (En, Es) All errors and system messages are localized.
 
  
-[![click to watch expected UI behavior for the example](https://github.com/The-Igor/d3-stories-instagram/blob/main/img/img_01.gif)](https://youtu.be/GW01UyqzaeE)
+[![click to watch expected UI behavior for the example](https://github.com/swiftuiux/d3-stories-instagram/blob/main/img/img_01.gif)](https://youtu.be/GW01UyqzaeE)
 
-[![click to watch expected UI behavior for the example](https://github.com/The-Igor/d3-stories-instagram/blob/main/img/img_08.gif)](https://youtu.be/GW01UyqzaeE)
+[![click to watch expected UI behavior for the example](https://github.com/swiftuiux/d3-stories-instagram/blob/main/img/img_08.gif)](https://youtu.be/GW01UyqzaeE)
 
-[![click to watch expected UI behavior for the example](https://github.com/The-Igor/d3-stories-instagram/blob/main/img/img_03.png)](https://youtu.be/GW01UyqzaeE)
+[![click to watch expected UI behavior for the example](https://github.com/swiftuiux/d3-stories-instagram/blob/main/img/img_03.png)](https://youtu.be/GW01UyqzaeE)

@@ -490,7 +490,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		7867962E2CF73C5A00352F7A /* XCRemoteSwiftPackageReference "d3-stories-instagram" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/igor11191708/d3-stories-instagram";
+			repositoryURL = "https://github.com/swiftuiux/d3-stories-instagram";
 			requirement = {
 				branch = main;
 				kind = branch;
